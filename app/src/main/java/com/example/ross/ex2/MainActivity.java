@@ -2,7 +2,8 @@ package com.example.ross.ex2;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,13 +12,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.RatingBar;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Parcelable
+{
 
     private static final int REQUEST_IMAGE_CAPTURE = 1;
     private Button nextBtn;
@@ -25,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private RatingBar stars;
     private ImageButton image;
     private Bitmap imageBitmap;
-    private ImageRate[] ir;
+    //private ImageRate[] ImageRateArr;
+    private ArrayList<ImageRate> imageRateArr;
     private int counter;
 
 
@@ -88,11 +91,18 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        ir[counter].bm=imageBitmap;
-        ir[counter].RatingStars =this.stars.getRating();
+        float rate = stars.getRating();
+        ImageRate ir= new ImageRate(imageBitmap,rate);
+
+        imageRateArr.add(counter,ir);
+
+
+
+//        ImageRateArr[counter].setBitMap(imageBitmap);
+//        ImageRateArr[counter].setRateStars(stars.getRating());
         counter++;
 
-        String imgString =  bitmapToBase64(imageBitmap); // encoding image to string
+       // String imgString =  bitmapToBase64(imageBitmap); // encoding image to string
 
 
 
@@ -104,10 +114,23 @@ public class MainActivity extends AppCompatActivity {
     public void onNext()
     {
         Intent i = new Intent(this,Main2Activity.class);
-        i.putExtra("imageStr", imgString); // send encoding image into intent.
+        i.putParcelableArrayListExtra("array",imageRateArr );
         startActivity(i);// launch Main2activity with i intent
 
 
     }
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags)
+    {
+        dest.writeString(ImageRate);
+        Bundle b = new Bundle();
+        b.putParcelableArrayList("items", items);
+        dest.writeBundle(b);
+    }
 }
