@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ex3</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="set_color_and_read_text">set color and read text</string>
+    <string name="blue">Blue</string>
+    <string name="pink">Pink</string>
+    <string name="please_enter_text_here">Please enter text here</string>
+    <string name="press_here_to_text">press here to text</string>
+    <string name="textview_m2">TextView_M2</string>
+</resources>
