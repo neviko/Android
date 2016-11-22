@@ -31,7 +31,7 @@
         android:layout_marginBottom="43dp"
         android:layout_above="@+id/nextBtn"
         android:layout_centerHorizontal="true"
-        android:onClick="OnSubmit"
+        android:onClick="onSubmit"
 
         />
 

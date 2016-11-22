@@ -18,19 +18,19 @@ import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 
 
-public class MainActivity extends AppCompatActivity implements Parcelable
+public class MainActivity extends AppCompatActivity
 {
-
     private static final int REQUEST_IMAGE_CAPTURE = 1;
     private Button nextBtn;
     private Button submitBtn;
     private RatingBar stars;
     private ImageButton image;
     private Bitmap imageBitmap;
-    //private ImageRate[] ImageRateArr;
-    private ArrayList<ImageRate> imageRateArr;
+    //private ImageRate[] imageRateArr;
+    private ArrayList<ImageRate> imageArrList;
     private int counter;
-
+    private int imageCounter;
+    int arrayListCounter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,9 +41,11 @@ public class MainActivity extends AppCompatActivity implements Parcelable
         submitBtn = (Button)findViewById(R.id.submitBtn);
         stars = (RatingBar)findViewById(R.id.ratingBar);
         image = (ImageButton)findViewById(R.id.imageButton);
-        counter =0;
+        arrayListCounter =0;
+        this.imageCounter = 0;
+        //imageRateArr = new ImageRate[20];
 
-
+        imageArrList = new ArrayList<ImageRate>();
     }
 
 
@@ -84,53 +86,35 @@ public class MainActivity extends AppCompatActivity implements Parcelable
 
 
 
-    private void onSubmit(View v)
+    public void onSubmit(View v)
     {
+
         if(imageBitmap==null){
             Toast.makeText(MainActivity.this,"Something went wrong in onSubmit",Toast.LENGTH_LONG).show();
             return;
         }
 
-        float rate = stars.getRating();
+        float rate = stars.getRating(); // get the user rate
         ImageRate ir= new ImageRate(imageBitmap,rate);
 
-        imageRateArr.add(counter,ir);
 
-
-
-//        ImageRateArr[counter].setBitMap(imageBitmap);
-//        ImageRateArr[counter].setRateStars(stars.getRating());
-        counter++;
-
-       // String imgString =  bitmapToBase64(imageBitmap); // encoding image to string
-
-
-
+        imageArrList.add(arrayListCounter,ir);//adding an object to array
+        arrayListCounter++;
+        imageCounter++;
         imageBitmap=null;
     }
 
 
 
-    public void onNext()
+    public void onNext(View v)
     {
         Intent i = new Intent(this,Main2Activity.class);
-        i.putParcelableArrayListExtra("array",imageRateArr );
+        i.putParcelableArrayListExtra("myList",imageArrList);
+
         startActivity(i);// launch Main2activity with i intent
 
 
     }
 
-    @Override
-    public int describeContents() {
-        return 0;
-    }
 
-    @Override
-    public void writeToParcel(Parcel dest, int flags)
-    {
-        dest.writeString(ImageRate);
-        Bundle b = new Bundle();
-        b.putParcelableArrayList("items", items);
-        dest.writeBundle(b);
-    }
 }

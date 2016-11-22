@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\NevoAndroid\\Home\\Ex2-20161116T202419Z\\Ex2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\NevoAndroid\\Home\\Ex2-20161116T202419Z\\Ex2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

@@ -12,7 +12,15 @@
         "source": "C:\\NevoAndroid\\Home\\Ex2-20161116T202419Z\\Ex2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\Ross\\AndroidStudioProjects\\Ex2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\Ross\\AndroidStudioProjects\\Ex2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]
