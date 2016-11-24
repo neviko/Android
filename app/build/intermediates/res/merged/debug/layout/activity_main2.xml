@@ -11,23 +11,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ross.ex2.Main2Activity">
 
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         app:srcCompat="@android:drawable/ic_menu_camera"
         android:id="@+id/imageView1"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
-
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        app:srcCompat="@android:drawable/ic_menu_camera"
-        android:id="@+id/imageView2"
-        android:layout_marginTop="28dp"
-        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -36,9 +27,31 @@
         android:layout_height="100dp"
         app:srcCompat="@android:drawable/ic_menu_camera"
         android:id="@+id/imageView3"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="22dp"
         android:layout_below="@+id/imageView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Top 3 most rated images"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#3FF206"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

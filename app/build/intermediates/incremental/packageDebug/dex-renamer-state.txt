@@ -1,4 +1,7 @@
-#Wed Nov 23 00:29:47 IST 2016
-base.0=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Thu Nov 24 11:25:36 IST 2016
+base.0=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_354fc3e3130b5e76e2354c531f572c38a198f0ef
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f3799127c9e2cdfb5ce3c5747974fdb8c1786fb6\\classes.dex
+base.1=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f3799127c9e2cdfb5ce3c5747974fdb8c1786fb6
+file.0=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_354fc3e3130b5e76e2354c531f572c38a198f0ef\\classes.dex

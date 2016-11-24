@@ -10,7 +10,6 @@ import android.util.Base64;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -38,22 +37,32 @@ public class Main2Activity extends AppCompatActivity {
         imageArrList = i.getParcelableArrayListExtra("myList");
 
 
-        // Sorting the ArrayList by rating stars
-        Collections.sort(imageArrList, new Comparator<ImageRate>()
+
+        if(imageArrList.size()>1) // if the array list have more then one items goto the sort command.
         {
-            @Override
-            public int compare(ImageRate o1, ImageRate o2) {
+            // Sorting the ArrayList by rating stars
+            Collections.sort(imageArrList, new Comparator<ImageRate>()
+            {
+                @Override
+                public int compare(ImageRate o1, ImageRate o2) {
 
-                Float change1 = Float.valueOf(o1.GetRateStars());
-                Float change2 = Float.valueOf(o2.GetRateStars());
-                return change1.compareTo(change2);
-            }
-        });
+                    Float change1 = Float.valueOf(o1.GetRateStars());
+                    Float change2 = Float.valueOf(o2.GetRateStars());
+                    return change1.compareTo(change2);
+                }
+            });
+        }
 
 
-        iv1.setImageBitmap(imageArrList.get(imageArrList.size()-1).getBitMap());
-        iv2.setImageBitmap(imageArrList.get(imageArrList.size()-2).getBitMap());
-        iv3.setImageBitmap(imageArrList.get(imageArrList.size()-3).getBitMap());
+        // presenting the top three rated images only if exist.
+        if(imageArrList.size()>0)
+            iv1.setImageBitmap(imageArrList.get(imageArrList.size()-1).getBitMap());
+
+        if(imageArrList.size() > 1)
+            iv2.setImageBitmap(imageArrList.get(imageArrList.size()-2).getBitMap());
+
+        if(imageArrList.size() > 2)
+            iv3.setImageBitmap(imageArrList.get(imageArrList.size()-3).getBitMap());
 
 
     }

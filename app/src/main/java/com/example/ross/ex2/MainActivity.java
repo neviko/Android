@@ -2,15 +2,13 @@ package com.example.ross.ex2;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
@@ -24,9 +22,8 @@ public class MainActivity extends AppCompatActivity
     private Button nextBtn;
     private Button submitBtn;
     private RatingBar stars;
-    private ImageButton image;
+    private ImageView imageToSubmit;
     private Bitmap imageBitmap;
-    //private ImageRate[] imageRateArr;
     private ArrayList<ImageRate> imageArrList;
     private int counter;
     private int imageCounter;
@@ -36,24 +33,21 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         nextBtn = (Button)findViewById(R.id.nextBtn);
         submitBtn = (Button)findViewById(R.id.submitBtn);
         stars = (RatingBar)findViewById(R.id.ratingBar);
-        image = (ImageButton)findViewById(R.id.imageButton);
+        imageToSubmit = (ImageView)findViewById(R.id.imageView);
         arrayListCounter =0;
         this.imageCounter = 0;
-        //imageRateArr = new ImageRate[20];
-
         imageArrList = new ArrayList<ImageRate>();
     }
 
 
     public void openCamera(View v)
     {
-        Intent takePicIntante = new Intent(MediaStore.ACTION_IMAGE_CAPTURE); // create a new intent for image transfer between activities.
+        Intent takePicIntante = new Intent(MediaStore.ACTION_IMAGE_CAPTURE); // create a new intent for imageToSubmit transfer between activities.
         if(takePicIntante.resolveActivity(getPackageManager()) != null)
-            startActivityForResult(takePicIntante,REQUEST_IMAGE_CAPTURE);
+            startActivityForResult(takePicIntante,REQUEST_IMAGE_CAPTURE);// callback function
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) // override the result function must implement with startActivityForResult
@@ -61,7 +55,7 @@ public class MainActivity extends AppCompatActivity
         if(requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK){
             Bundle extras = data.getExtras();
             imageBitmap = (Bitmap)extras.get("data");
-            image.setImageBitmap(imageBitmap);
+            imageToSubmit.setImageBitmap(imageBitmap);
 
         }
     }
@@ -70,7 +64,7 @@ public class MainActivity extends AppCompatActivity
 
 
 
-    //encoding and decoding image to string function if we dont want to store the image data on a filesystem,
+    //encoding and decoding imageToSubmit to string function if we dont want to store the imageToSubmit data on a filesystem,
     // we can just store the base64 string in a database instead.
 
     private String bitmapToBase64(Bitmap bitmap)
@@ -82,15 +76,11 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-
-
-
-
     public void onSubmit(View v)
     {
 
         if(imageBitmap==null){
-            Toast.makeText(MainActivity.this,"Something went wrong in onSubmit",Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this,"Please take a picture before submitting",Toast.LENGTH_LONG).show();
             return;
         }
 
@@ -102,6 +92,9 @@ public class MainActivity extends AppCompatActivity
         arrayListCounter++;
         imageCounter++;
         imageBitmap=null;
+
+        Toast.makeText(MainActivity.this,"Your imageToSubmit have been successfully submitted",Toast.LENGTH_LONG).show();
+
     }
 
 
@@ -118,3 +111,6 @@ public class MainActivity extends AppCompatActivity
 
 
 }
+
+
+
