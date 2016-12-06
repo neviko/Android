@@ -1,0 +1,7 @@
+#Tue Dec 06 21:38:36 IST 2016
+base.0=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex3_Home\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_32cd142f34289372ae3fa160eb720a29d31b6a11
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex3_Home\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7651d2149382af8c71334cb72258fe951a0f6d35\\classes.dex
+base.1=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex3_Home\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7651d2149382af8c71334cb72258fe951a0f6d35
+file.0=C\:\\Users\\Sayag\\Desktop\\Android temp\\Home\\Ex3_Home\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_32cd142f34289372ae3fa160eb720a29d31b6a11\\classes.dex

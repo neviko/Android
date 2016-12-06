@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ex3_Home</string>
+    <string name="insert">INSERT</string>
+    <string name="search">SEARCH</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+</resources>

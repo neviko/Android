@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:id="@+id/customLayout"
+    >
+
+
+    <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="45sp"
+     android:layout_row="0"
+     android:layout_column="0"
+     android:id="@+id/txtContactName"
+        />
+
+
+    <TextView
+    android:layout_row="0"
+    android:layout_column="1"
+    android:id="@+id/txtContactPhone"
+    />
+
+
+    <ImageButton
+    android:layout_row="0"
+    android:layout_column="3"
+    android:id="@+id/callImg"
+    android:background="@android:drawable/stat_sys_phone_call" />
+    <!--android:layout_rowSpan="2"-->
+
+
+
+</GridLayout>
