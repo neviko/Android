@@ -17,6 +17,10 @@ uses-permission#android.permission.READ_CONTACTS
 ADDED from C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\src\main\AndroidManifest.xml:5:5-72
 	android:name
 		ADDED from C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\src\main\AndroidManifest.xml:5:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\src\main\AndroidManifest.xml:6:5-69
+	android:name
+		ADDED from C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\src\main\AndroidManifest.xml:6:22-66
 application
 ADDED from C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\src\main\AndroidManifest.xml:8:5-21:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20

@@ -49,17 +49,16 @@ public class MyCursorAdapter extends CursorAdapter
 
         if ( ! (cursor.getString(cursor.getColumnIndex(Contacts.PHONE_NUMBER))).equals("")) // if the contact have a phone number
         {
-           // phone.setText("N/A");
             img.setBackgroundResource(android.R.drawable.sym_action_call); // set a new image
             //img.setImageResource(android.R.drawable.sym_action_call);
             phone.setText(cursor.getString(cursor.getColumnIndex(Contacts.PHONE_NUMBER))); // set phone number
 
         }
 
-        else
-        {
-            phone.setText("N/A");
-        }
+//        else
+//        {
+//            phone.setText("N/A");
+//        }
 
     }
 

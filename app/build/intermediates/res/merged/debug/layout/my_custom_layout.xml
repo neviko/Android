@@ -30,7 +30,9 @@
     android:layout_row="0"
     android:layout_column="3"
     android:id="@+id/callImg"
-    android:background="@android:drawable/stat_sys_phone_call" />
+    android:background="@android:drawable/stat_sys_phone_call"
+    android:onClick="onImageClick"
+        />
     <!--android:layout_rowSpan="2"-->
 
 
