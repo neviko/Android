@@ -8,6 +8,7 @@ import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.CursorAdapter;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -54,11 +55,6 @@ public class MyCursorAdapter extends CursorAdapter
             phone.setText(cursor.getString(cursor.getColumnIndex(Contacts.PHONE_NUMBER))); // set phone number
 
         }
-
-//        else
-//        {
-//            phone.setText("N/A");
-//        }
 
     }
 

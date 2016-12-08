@@ -4,8 +4,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_centerHorizontal="true"
+
+
     android:layout_alignParentTop="true"
     android:id="@+id/customLayout"
+
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+
     >
 
 
@@ -16,6 +24,9 @@
      android:layout_row="0"
      android:layout_column="0"
      android:id="@+id/txtContactName"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         />
 
 
@@ -23,6 +34,9 @@
     android:layout_row="0"
     android:layout_column="1"
     android:id="@+id/txtContactPhone"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
     />
 
 
@@ -31,8 +45,13 @@
     android:layout_column="3"
     android:id="@+id/callImg"
     android:background="@android:drawable/stat_sys_phone_call"
-    android:onClick="onImageClick"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+
         />
+    <!--android:onClick="onImageClick"-->
+
     <!--android:layout_rowSpan="2"-->
 
 

@@ -536,7 +536,7 @@ int id line1 0x7f0b0063
 int id line3 0x7f0b0067
 int id listMode 0x7f0b0009
 int id list_item 0x7f0b002b
-int id ls1 0x7f0b0059
+int id lv1 0x7f0b0059
 int id media_actions 0x7f0b0061
 int id middle 0x7f0b001c
 int id multiply 0x7f0b0014

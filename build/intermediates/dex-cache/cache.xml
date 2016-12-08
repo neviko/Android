@@ -3,6 +3,69 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1eaa44ce72762fe8d4a5856c06f5122e75b5daf5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_03ab956ad5215ed23480d230ff0d757d8631cc95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_c49504cfc9281e500d875dddce7e50cb74b4ac61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_a3400100941293197561d3a71cea71ec8138f402\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16b2a286ff3aeb4b222b75a8fac0a7d2e3b59037">
+        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7651d2149382af8c71334cb72258fe951a0f6d35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_ef6c0221f3e62f1e9395b052ab4cd137a96aca97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_efe46ce578758cf8066f4daea8ca6070a5424949\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -39,15 +102,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1eaa44ce72762fe8d4a5856c06f5122e75b5daf5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -75,57 +129,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_03ab956ad5215ed23480d230ff0d757d8631cc95\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_c49504cfc9281e500d875dddce7e50cb74b4ac61\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_a3400100941293197561d3a71cea71ec8138f402\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="50c2511f7f471a0e88fa456144d4b7cd52f02aa4">
-        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7651d2149382af8c71334cb72258fe951a0f6d35\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="eb0d6b0fb819d02c835439b4cac1bb672c3ed7fe">
+        sha1="739b582a9c97be448d1b3dbabe5c28b3df16330f">
         <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_32cd142f34289372ae3fa160eb720a29d31b6a11\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_ef6c0221f3e62f1e9395b052ab4cd137a96aca97\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -135,15 +144,6 @@
         revision="25.0.0"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
         <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_a9126a83972c6743cc473ac6eab6dc838d351b21\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Sayag\Desktop\Android temp\Home\Ex3_Home\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_efe46ce578758cf8066f4daea8ca6070a5424949\classes.dex" />
     </item>
     <item
         is-multidex="true"

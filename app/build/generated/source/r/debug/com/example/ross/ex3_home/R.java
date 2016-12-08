@@ -1829,7 +1829,7 @@ containing a value of this type.
         public static final int line3=0x7f0b0067;
         public static final int listMode=0x7f0b0009;
         public static final int list_item=0x7f0b002b;
-        public static final int ls1=0x7f0b0059;
+        public static final int lv1=0x7f0b0059;
         public static final int media_actions=0x7f0b0061;
         public static final int middle=0x7f0b001c;
         public static final int multiply=0x7f0b0014;
